@@ -7,9 +7,10 @@ body {
 
 h1 {
     font-family: 'Montserrat', sans-serif;
-    margin: 50px;
+    margin: auto 20% 50px 20%;
     position: relative;
     top: 50px;
+    right: auto;
     color: rgb(44, 77, 95);
 }
 
