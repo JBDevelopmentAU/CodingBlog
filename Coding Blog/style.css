@@ -139,11 +139,27 @@ hr {
                 inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
 
+.side-logo {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 10;
+    right: 0;
+    margin: auto;
+    margin-left: 20px;
+}
+
+.para-float {
+    float: right;
+}
+
 .Month {
     font-family: 'Montserrat', sans-serif;
     font-weight: 2;
     line-height: 1.5;
-    margin: auto 200px auto 200px;
+    margin: auto 20% auto 20%;
     position: relative;
     top: 120px;
     bottom: 25px;
@@ -152,24 +168,14 @@ hr {
     font-size: 1.5rem;
 }
 
-.day1 {
+.days {
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
     line-height: 1.5;
-    margin: auto 200px 50px 200px;
+    margin: auto 20% 50px 20%;
     position: relative;
     top: 150px;
     text-align: left;
     color: rgb(44, 77, 95);
-}
-
-.day2 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: normal;
-    line-height: 1.5;
-    margin: auto 200px 50px 200px;
-    position: relative;
-    top: 150px;
-    text-align: left;
-    color: rgb(44, 77, 95);
+    padding-right: 7%;
 }
