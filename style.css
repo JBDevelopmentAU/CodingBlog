@@ -14,6 +14,16 @@ h1 {
     color: rgb(44, 77, 95);
 }
 
+.brand {
+    font-family: 'Montserrat-Bold', sans-serif;
+    margin: auto 20% 50px 20%;
+    position: relative;
+    top: 20px;
+    right: auto;
+    color: rgb(44, 77, 95);
+    font-size: 2rem;
+}
+
 h2 {
     font-family: 'Nunito', sans-serif;
     line-height: 2;
