@@ -3,10 +3,6 @@
 padding: 0;
 }
 
-.navbar {
-    color: white;
-}
-
 body {
     margin: 0px;
     text-align: center;
@@ -14,48 +10,10 @@ body {
     color: rgb(0, 0, 0)
 }
 
-h1 {
-    font-family: 'Montserrat', sans-serif;
-    margin: auto 20% 50px 20%;
-    position: relative;
-    top: 50px;
-    right: auto;
-    color: rgb(44, 77, 95);
-}
+/* Nav Bar */
 
-.medialogo {
-    color: white;
-}
 
-.brand {
-    font-family: 'Montserrat', sans-serif;
-    margin: auto 20% 50px 20%;
-    position: relative;
-    top: 20px;
-    right: auto;
-    color: rgb(44, 77, 95);
-    font-size: 2rem;
-}
-
-h2 {
-    font-family: 'Nunito', sans-serif;
-    line-height: 2;
-    position: relative;
-    top: 18px;
-    color: burlywood;
-    
-}
-
-h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: normal;
-    line-height: 2;
-    width: 60%;
-    margin: auto;
-    position: relative;
-    top: 50px;
-    color: rgb(44, 77, 95);
-}
+/* Containers */
 
 .top-container {
     bottom: 90px;
@@ -74,34 +32,8 @@ h3 {
     background-color: rgb(150, 178, 187);
 }
 
-.footer {
-    background-color: #212529;
-    padding: 0 0 20px;
-    color: burlywood;
-    flex-direction: row;
-}
 
-hr {
-    margin: 200px auto 20px auto;
-    border: dotted rgb(255, 255, 255) 6px;
-    border-bottom: none;
-    width: 6%; 
-}
-
-.begin {
-    font-size: 40px;
-}
-
-.intro {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: normal;
-    line-height: 2.3;
-    width: 60%;
-    margin: auto;
-    position: relative;
-    top: 100px;
-    color: rgb(44, 77, 95);
-}
+/* Introduction */
 
 .code-logo {
     position: relative;
@@ -111,6 +43,76 @@ hr {
     margin-bottom: 25px;
 }
 
+.mainHeading {
+    font-family: 'Montserrat', sans-serif;
+    margin: auto 20% 50px 20%;
+    position: relative;
+    top: 50px;
+    right: auto;
+    color: rgb(44, 77, 95);
+}
+
+.brand {
+    font-family: 'Montserrat', sans-serif;
+    margin: auto 20% 50px 20%;
+    position: relative;
+    top: 20px;
+    right: auto;
+    color: rgb(44, 77, 95);
+    font-size: 2rem;
+}
+
+.begin {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    line-height: 2;
+    width: 60%;
+    margin: auto;
+    position: relative;
+    top: 50px;
+    color: rgb(44, 77, 95);
+}
+
+.introText {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    line-height: 2;
+    width: 60%;
+    margin: auto;
+    position: relative;
+    top: 50px;
+    color: rgb(44, 77, 95);
+}
+
+@media (max-width: 750px) {
+    .brand {
+        font-size: 1.7rem;
+    }
+
+    .begin {
+        font-size: 1rem;
+    }
+
+    .introText {
+        font-size: 1rem;
+    }
+}
+
+
+/* Journey */
+
+.journeyIntro {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    line-height: 2.3;
+    width: 60%;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    color: rgb(44, 77, 95);
+    font-size: 1rem;
+}
+
 .code-logos {
     position: relative;
     height: 150px;
@@ -118,66 +120,10 @@ hr {
     text-align: center;
     padding-bottom: 50px;
     margin: 3%;
-    
 }
 
-.contact-me {
-    color: burlywood;
-}
 
-.btn {
-    background: #3498db;
-    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
-    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
-    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
-    background-image: -o-linear-gradient(top, #3498db, #2980b9);
-    background-image: linear-gradient(to bottom, #3498db, #2980b9);
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
-    border-radius: 28px;
-    font-family: Georgia;
-    color: #ffffff;
-    font-size: 20px;
-    padding: 10px 20px 10px 20px;
-    border: solid #1f628d 1px;
-    text-decoration: none;
-    margin: 2%;
-  }
-  
-  .btn:hover {
-    background: #3cb0fd;
-    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-    text-decoration: none;
-  }
-
-.styled:hover {
-    background-color: rgba(255, 0, 0, 1);
-}
-
-.styled:active {
-    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
-                inset 2px 2px 3px rgba(0, 0, 0, .6);
-}
-
-.side-logo {
-    width: 80px;
-    height: 80px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 10;
-    right: 0;
-    margin: auto;
-    margin-left: 20px;
-}
-
-.para-float {
-    float: right;
-}
+/* Blog Updates */
 
 .Month {
     font-family: 'Montserrat', sans-serif;
@@ -203,30 +149,96 @@ hr {
     color: rgb(44, 77, 95);
 }
 
-@media (max-width: 750px) {
-    .brand {
-        font-size: 1.7rem;
-    }
+/* .side-logo {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 10;
+    right: 0;
+    margin: auto;
+    margin-left: 20px;
+} */
 
-    h1 {
-        font-size: 1.7rem;
-    }
 
-    h3 {
-        font-size: 1.7rem;
-    }
+
+/* Footer */
+
+.footer {
+    background-color: #212529;
+    padding: 0 0 20px;
+    color: burlywood;
+    flex-direction: row;
 }
 
+.contact-me {
+    color: burlywood;
+}
+
+
 .medialogo {
+    color: white;
     margin: 20px 10px;
 }
 
-.carousel-item {
+.contactText {
+    font-family: 'Nunito', sans-serif;
+    line-height: 2;
     position: relative;
-    padding: 7% 15%;
+    top: 18px;
+    color: burlywood;
 }
 
-#blog-posts {
+
+
+/* Resource Page */
+
+.resource-top-container {
+    bottom: 90px;
+    background-color: rgb(150, 178, 187);
+    padding-bottom: 200px;
+}
+
+.resource-middle-container {
+    background-color: white;
+    padding-bottom: 200px;
+}
+
+.resourceLinks {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    line-height: 2.3;
+    width: 60%;
+    margin: auto;
     position: relative;
-    padding: 7% 15%;
+    top: 100px;
+    color: rgb(44, 77, 95);
+    font-size: 1.2rem;
+}
+
+/* Checklist Page */
+
+.checklist-top-container {
+    bottom: 90px;
+    background-color: rgb(150, 178, 187);
+    padding-bottom: 200px;
+}
+
+.checklist-middle-container {
+    background-color: white;
+    padding-bottom: 200px;
+}
+
+.checklists {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    line-height: 2.3;
+    width: 60%;
+    margin: auto 40% auto 20%;
+    position: relative;
+    top: 100px;
+    color: rgb(44, 77, 95);
+    font-size: 1.2rem;
+    text-align: center;
 }

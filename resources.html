@@ -1,13 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Module Resources</title>
+
+    <!-- Bootstrap Script -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+
+    <!-- Font Imports -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/72c7d25c5b.js" crossorigin="anonymous"></script>
+
+    <!-- CSS Stylesheet -->
+    <link href='style.css' rel='stylesheet'>
 </head>
+
 <body>
-    <h1>Resources</h1>
-    <h2>Enter key resources which were used during the learning process.</h2>
+    <!-- Nav Bar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">JBDevelopmentAU</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resources.html">Module Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="checklist.html">Module Checklist</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Introduction -->
+
+    <div class="resource-top-container">
+        <img class="code-logo" src="Images/internet.png" alt="internet logo">
+        <h1 class="mainHeading">Coding Web Resources</h1>
+        <p class="brand">JBDevelopmentAU</p>
+        <h3 class="begin">The point of always return</h3>
+        <div>
+            <img class="" src="" alt="">
+            <h3 class="introText">In this section, I will be linking all of the key and important resources in which I
+                have used, or found, which will enable me to efficiently find what I need in my future coding
+                endeavours.
+            </h3>
+        </div>
+    </div>
+
+        <!-- Resources -->
+
+    <div class="resource-middle-container">
+
+        <div class="resourceLinks">
+            <style>
+                a:link {
+                  color: rgb(44, 77, 95);
+                  background-color: transparent;
+                  text-decoration: none;
+                }
+                
+                a:visited {
+                  color: rgb(44, 77, 95);
+                  background-color: transparent;
+                  text-decoration: none;
+                }
+                
+                a:hover {
+                  color: red;
+                  background-color: transparent;
+                  text-decoration: underline;
+                }
+                
+                a:active {
+                  color: red;
+                  background-color: transparent;
+                  text-decoration: underline;
+                }
+                </style>
+            <div>
+                <h3 class="documentationLinks">Documentation Links</h3>
+                <a href="https://mdn.dev/" style="text-decoration:none">MDN Web</a><br>
+                <a href="https://www.w3schools.com/default.asp" style="text-decoration:none">w3schools</a><br>
+                <a href="https://getbootstrap.com/" style="text-decoration:none">Bootstrap</a><br>
+                <a href="https://stackoverflow.com/" style="text-decoration:none">Stack Overflow</a><br>
+            </div>
+            <div>
+                <br><h3 class="documentationLinks">Images, Logos and Fonts</h3>
+                <a href="https://fonts.google.com/" style="text-decoration:none">Google Fonts</a><br>
+                <a href="https://www.flaticon.com/" style="text-decoration:none">flaticon</a><br>
+                <a href="https://fontawesome.com/" style="text-decoration:none">fontawesome</a><br>
+
+            </div>
+            <div>
+                <br><h3 class="documentationLinks">Design and Inspiration</h3>
+                <a href="https://balsamiq.cloud/" style="text-decoration:none">Balsamiq (Wireframing)</a><br>
+                <a href="https://dribbble.com/" style="text-decoration:none">Dribble (inspiration)</a><br>    
+            </div>
+            
+            <!-- <a href="link" style="text-decoration:none">Site</a><br> -->
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="contact-me">
+            <h2 class="contactText">Get In Touch</h2>
+            <i class="medialogo fab fa-twitter"></i>
+            <i class="medialogo fab fa-facebook-f"></i>
+            <i class="medialogo fab fa-instagram"></i>
+            <i class="medialogo fas fa-envelope"></i>
+        </div>
+        <div>
+            <p>© Copyright 2022 JBDevelopmentAU</p>
+        </div>
+    </div>
+
 </body>
+
 </html>
