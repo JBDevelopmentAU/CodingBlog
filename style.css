@@ -3,6 +3,10 @@
 padding: 0;
 }
 
+.wrapper {
+    min-height: calc(100vh - 50px);
+}
+
 body {
     margin: 0px;
     text-align: center;
@@ -27,9 +31,9 @@ body {
 }
 
 .bottom-container {
-    height: 900px;
-    overflow: auto;
+    height: 100%;
     background-color: rgb(150, 178, 187);
+    padding-bottom: 40px;
 }
 
 
@@ -125,6 +129,29 @@ body {
 
 /* Blog Updates */
 
+.dailyUpdates {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 2;
+    line-height: 1.5;
+    font-weight: 600;
+    color: rgb(44, 77, 95);
+}
+
+.dropdown-menu {
+    text-align: center;
+    margin: 0 auto;
+    width: 150px;
+    color: rgb(44, 77, 95);
+}
+
+.monthLinks {
+    height: 100%;
+    background-color: rgb(150, 178, 187);
+    padding-bottom: 10px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
 .Month {
     font-family: 'Montserrat', sans-serif;
     font-weight: 2;
@@ -142,9 +169,8 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
     line-height: 1.5;
-    margin: auto 20% 50px 20%;
+    margin: 150px 20% 50px 20%;
     position: relative;
-    top: 150px;
     text-align: left;
     color: rgb(44, 77, 95);
 }
@@ -192,6 +218,9 @@ body {
 
 
 
+
+
+
 /* Resource Page */
 
 .resource-top-container {
@@ -216,6 +245,11 @@ body {
     color: rgb(44, 77, 95);
     font-size: 1.2rem;
 }
+
+
+
+
+
 
 /* Checklist Page */
 
