@@ -22,6 +22,7 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/72c7d25c5b.js" crossorigin="anonymous"></script>
 
+    <!-- CSS Stylesheet -->
     <link href='style.css' rel='stylesheet'>
 </head>
 
@@ -42,16 +43,17 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Resources</a>
+                        <a class="nav-link" href="resources.html">Module Resources</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Module Checklist</a>
+                        <a class="nav-link" href="checklist.html">Module Checklist</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
+    <!-- Introduction -->
 
     <div class="top-container">
         <img class="code-logo" src="Images/code.png" alt="code logo">
@@ -71,6 +73,8 @@
         </div>
     </div>
 
+    <!-- Introduction -->
+
     <div class="middle-container">
 
 
@@ -85,48 +89,79 @@
                 on Version Control using GIT, and started to become fimilar with Terminal usage using GIT Bash.</p>
 
         </div>
-
-        <hr>
     </div>
+
+    <!-- Blog Updates -->
+
+    <section id="blog-posts"></section>
+
     <div class="bottom-container">
         <div class="Month">
             <p><strong>January 2022</strong></p>
         </div>
 
-        <div class="days">
-            <p><strong>01-01-2022</strong></p>
-            <!-- <img class="side-logo" src="Images/start.png" alt="Start Logo"> -->
-            <p>The first day of 2022, where my Full Time coding journey begins. I finished off the Intermediate CSS
-                learnings, and prepared myself to start my Bootstrap 5 journey.</p>
-        </div>
+        <div id="testimonial-slide" class="carousel slide" data-ride="false">
+            <div class="days">
+                <div class="carousel-item active">
+                    <p><strong>01-01-2022</strong></p>
+                    <!-- <img class="side-logo" src="Images/start.png" alt="Start Logo"> -->
+                    <p>The first day of 2022, where my Full Time coding journey begins. I finished off the Intermediate
+                        CSS
+                        learnings, and prepared myself to start my Bootstrap 5 journey.</p>
 
-        <div class="days">
-            <p><strong>02-01-2022</strong></p>
-            <!-- <img class="side-logo" src="Images/bootstrap.png" alt="Bootstrap logo"> -->
-            <p>Today, I created this Blog website to capture each step of my coding journey using what I have learnt
-                thus far. I have also started to learn BootStrap 5, moving on to the next stage of building my coding
-                knowledge database. I have learnt about Bootstrap, installed it, learnt about Grid Layout Systems and
-                discovered Wireframing.</p>
-        </div>
+                    <br><br>
 
-        <div class="days">
-            <p><strong>03-01-2022</strong></p>
-            <!-- <img class="side-logo" src="Images/bootstrap.png" alt="Bootstrap logo"> -->
-            <p>I have continued to work with the Bootstrap framework today, covering Grid Layouts, CSS Link Orders,
-                BootStrap Containers, Bootstrap Buttons using Font Awesome and general Bootstrap styling. Through
-                completing this, I also began the Intermediate Bootstrap module - including learning about Bootstrap
-                Carousel, Bootstrap Cards and the CSS Z-Index and Stacking Order.</p>
-        </div>
+                    <p><strong>02-01-2022</strong></p>
+                    <!-- <img class="side-logo" src="Images/bootstrap.png" alt="Bootstrap logo"> -->
+                    <p>Today, I created this Blog website to capture each step of my coding journey using what I have
+                        learnt
+                        thus far. I have also started to learn BootStrap 5, moving on to the next stage of building my
+                        coding
+                        knowledge database. I have learnt about Bootstrap, installed it, learnt about Grid Layout
+                        Systems
+                        and
+                        discovered Wireframing.</p>
 
-        <div class="days">
-            <p><strong>04-01-2022</strong></p>
-            <!-- <img class="side-logo" src="Images/bootstrap.png" alt="Bootstrap logo"> -->
-            <p>Day four, and I am getting more and more in to the habit of coding with ease. My progression thus far has
-                been decent, and I am happy with what I have achieved over the past few days. Today I learnt about CSS
-                Media Query Breakpoints, (ENTER LEARNT MODULES TODAY) I have also made a slight re-design on my Blog
-                website, with more ideas coming.</p>
+                    <br><br>
+
+                    <p><strong>03-01-2022</strong></p>
+                    <!-- <img class="side-logo" src="Images/bootstrap.png" alt="Bootstrap logo"> -->
+                    <p>I have continued to work with the Bootstrap framework today, covering Grid Layouts, CSS Link
+                        Orders,
+                        BootStrap Containers, Bootstrap Buttons using Font Awesome and general Bootstrap styling.
+                        Through
+                        completing this, I also began the Intermediate Bootstrap module - including learning about
+                        Bootstrap
+                        Carousel, Bootstrap Cards and the CSS Z-Index and Stacking Order.</p>
+                </div>
+                <div class="carousel-item">
+                    <p><strong>04-01-2022</strong></p>
+                    <!-- <img class="side-logo" src="Images/bootstrap.png" alt="Bootstrap logo"> -->
+                    <p>Day four, and I am getting more and more in to the habit of coding with ease. My progression thus
+                        far
+                        has
+                        been decent, and I am happy with what I have achieved over the past few days. Today I learnt
+                        about
+                        CSS
+                        Media Query Breakpoints, (ENTER LEARNT MODULES TODAY) I have also made a slight re-design on my
+                        Blog
+                        website, with more ideas coming.</p>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-slide"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonial-slide"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </div>
     </div>
+
+    <!-- Footer -->
 
     <div class="footer">
         <div class="contact-me">
@@ -140,7 +175,6 @@
             <p>© Copyright 2022 JBDevelopmentAU</p>
         </div>
     </div>
-
 </body>
 
 </html>
