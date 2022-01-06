@@ -1,0 +1,310 @@
+* {
+  margin: 0% 0% 0% 0%;
+  padding: 0;
+  max-width: 100%;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: rgb(150, 178, 187);
+}
+
+.white-section {
+  background-color: #F1F9FC;
+}
+
+/* Nav Bar */
+
+
+/* Containers */
+
+.top-container {
+  bottom: 90px;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+.top-container-index {
+  bottom: 90px;
+  padding-top: 40px;
+  padding-bottom: 110px;
+}
+
+.middle-container {
+  padding-bottom: 200px;
+}
+
+.bottom-container {
+  height: 100%;
+  padding-bottom: 40px;
+}
+
+
+/* Introduction */
+
+.code-logo {
+  position: static;
+  height: 250px;
+  padding-top: 60px;
+  text-align: center;
+  padding-bottom: 40px;
+  margin: auto 20% auto 20%;
+}
+
+.mainHeading {
+  margin: auto 20% 50px 20%;
+  position: relative;
+  top: 50px;
+  right: auto;
+  color: rgb(44, 77, 95);
+  font-weight: 1000;
+}
+
+.brand {
+  margin: auto 20% 50px 20%;
+  position: relative;
+  top: 20px;
+  right: auto;
+  color: rgb(44, 77, 95);
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.begin {
+  font-weight: normal;
+  line-height: 2;
+  width: 60%;
+  margin: auto;
+  position: relative;
+  top: 50px;
+  color: rgb(44, 77, 95);
+  font-size: 20px;
+}
+
+.introText {
+  font-weight: normal;
+  line-height: 2;
+  width: 60%;
+  margin: auto;
+  position: relative;
+  top: 50px;
+  color: rgb(44, 77, 95);
+  font-size: 20px;
+}
+
+@media (max-width: 750px) {
+  .brand {
+    font-size: 1.7rem;
+  }
+
+  .begin {
+    font-size: 1rem;
+  }
+
+  .introText {
+    font-size: 1rem;
+  }
+}
+
+
+/* Journey */
+
+.journeyIntro {
+  font-weight: normal;
+  line-height: 2.3;
+  width: 60%;
+  margin: auto;
+  position: relative;
+  top: 100px;
+  color: rgb(44, 77, 95);
+  font-size: 1rem;
+}
+
+.code-logos {
+  position: static;
+  height: 150px;
+  margin-top: 10px;
+  text-align: center;
+  padding-bottom: 50px;
+  margin: auto 20% auto 20%;
+}
+
+.column {
+  float: left;
+  width: 33.3333333333%;
+  padding: 5px;
+}
+
+.row {
+  margin: auto 20% auto 20%;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* Blog Updates */
+
+.dailyUpdates {
+  font-weight: 2;
+  line-height: 1.5;
+  font-weight: 600;
+  color: rgb(44, 77, 95);
+  text-align: left;
+  margin: auto 20% auto 20%;
+}
+
+.dropdown {
+  text-align: left;
+  margin: auto 20% auto 20%;
+  margin-top: 40px;
+}
+
+.dropdown-menu {
+  text-align: center;
+}
+
+.monthLinks {
+  height: 100%;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.month {
+  font-weight: 2;
+  line-height: 1.5;
+  margin: auto 20% auto 20%;
+  position: relative;
+  top: 80px;
+  bottom: 25px;
+  text-align: left;
+  color: rgb(44, 77, 95);
+  font-size: 1.5rem;
+}
+
+.days {
+  font-weight: normal;
+  line-height: 1.5;
+  margin: 125px 20% 50px 20%;
+  position: relative;
+  text-align: left;
+  color: rgb(44, 77, 95);
+}
+
+@media (max-width: 750px) {
+  .month {
+    font-size: 1.3rem;
+  }
+
+  .days {
+    font-size: 1rem;
+  }
+}
+
+/* .side-logo {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 10;
+  right: 0;
+  margin: auto;
+  margin-left: 20px;
+} */
+
+
+
+/* Footer */
+
+.footer {
+  background-color: #212529;
+  padding: 0 0 20px;
+  color: burlywood;
+  flex-direction: row;
+  text-align: center;
+}
+
+.contact-me {
+  color: burlywood;
+}
+
+
+.medialogo {
+  color: white;
+  margin: 20px 10px;
+}
+
+.contactText {
+  font-family: 'Nunito', sans-serif;
+  line-height: 2;
+  position: relative;
+  top: 18px;
+  color: burlywood;
+}
+
+
+
+
+
+
+/* Resource Page */
+
+.resource-top-container {
+  bottom: 90px;
+  padding-bottom: 200px;
+}
+
+.resource-middle-container {
+  padding-bottom: 200px;
+}
+
+.resourceLinks {
+  font-weight: normal;
+  line-height: 2.3;
+  width: 60%;
+  margin: auto;
+  position: relative;
+  top: 100px;
+  color: rgb(44, 77, 95);
+  font-size: 1.2rem;
+}
+
+
+
+
+
+
+/* Checklist Page */
+
+.checklist-top-container {
+  bottom: 90px;
+  padding-bottom: 200px;
+}
+
+.checklist-middle-container {
+  padding-bottom: 200px;
+}
+
+.checklists {
+  font-weight: normal;
+  line-height: 2.3;
+  width: 60%;
+  margin: auto 40% auto 20%;
+  position: relative;
+  top: 100px;
+  color: rgb(44, 77, 95);
+  font-size: 1.2rem;
+
+}
