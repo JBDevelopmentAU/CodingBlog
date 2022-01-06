@@ -17,7 +17,7 @@ body {
 }
 
 .white-section {
-    background-color: white;
+    background-color: #F1F9FC;
 }
 
 /* Nav Bar */
@@ -50,14 +50,12 @@ body {
 /* Introduction */
 
 .code-logo {
-    position: relative;
-    height: 150px;
-    top: 50px;
-    margin-left: 35px;
-    margin-bottom: 25px;
-    margin: auto 20% 50px 20%;
-    padding-left: 24%;
-    padding-right: 24%;
+    position: static;
+    height: 250px;
+    padding-top: 60px;
+    text-align: center;
+    padding-bottom: 40px;
+    margin: auto 20% auto 20%;
 }
 
 .mainHeading {
